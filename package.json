@@ -1,0 +1,46 @@
+{
+  "name": "simulator-io",
+  "version": "0.1.0",
+  "description": "An IO plugin for Johnny-Five that provides a simulated hardware environment",
+  "author": "ayan4m1 <andrew@bulletlogic.com>",
+  "license": "MIT",
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "build": "gulp",
+    "develop": "gulp watch",
+    "test": "jest",
+    "prepublishOnly": "gulp",
+    "view:coverage": "opener ./coverage/index.html"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.7.7",
+    "board-io": "^3.0.5",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/plugin-proposal-object-rest-spread": "^7.7.7",
+    "@babel/plugin-transform-regenerator": "^7.7.5",
+    "@babel/plugin-transform-runtime": "^7.7.6",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/register": "^7.7.7",
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-jest": "^23.3.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-eslint": "^6.0.0",
+    "husky": "^3.1.0",
+    "jest": "^24.9.0",
+    "lint-staged": "^9.5.0",
+    "opener": "^1.5.1",
+    "prettier": "^1.19.1",
+    "prettier-eslint": "^9.0.1"
+  }
+}
